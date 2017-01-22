@@ -84,6 +84,9 @@ define( 'WP_DEBUG_LOG', true );
 define( 'WP_DEBUG_DISPLAY', false );
 @ini_set( 'display_errors', 0 );
 define( 'SCRIPT_DEBUG', true );
+define('WP_MEMORY_LIMIT', '64M');
+define('WP_CACHE', true);
+define('EMPTY_TRASH_DAYS', 7 );
 
 /* That's all, stop editing! Happy blogging. */
 
